@@ -39,6 +39,8 @@ function App() {
       <h1>My TO DO App</h1>
       <input ref={toDoNameRef} type="text" />
       <button onClick={handleAddToDo}>Add todo</button>
+      <hr/>
+      <h3>TODOS</h3>
       <ToDoList todoList={todos} toggleToDo={toggleToDo} />
     </>
   );

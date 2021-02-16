@@ -6,6 +6,5 @@ export default function ToDoList( {todoList, toggleToDo} ) {
         todoList.map(todo =>{
             return <ToDo key={todo.id} toggleToDo={toggleToDo} todo={todo} />
         })
-
     );
 }

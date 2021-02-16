@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ToDoList from './ToDoList';
 
 function App() {
-  const [todos, setToDos ] = useState(['todo1', 'todo2']);
+  const [todos, setToDos ] = useState([]);
   return (
     <>
       <h1>My TO DO App</h1>

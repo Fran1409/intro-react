@@ -1,12 +1,16 @@
 import React from 'react'
 
-export default function ToDo( {todo}) {
+export default function ToDo( {todo, toggleToDo}) {
+    function handleToDoClick(){
+        toggleToDo(todo.id);
+    };
+
     return (
         <div>
-            <input type="checkbox" checked="{todo.complete}"/>
+            <input type="checkbox" checked={todo.complete} onChange={handleToDoClick}/>
             <label>
                 {todo.name}
             </label>
         </div>
-    )
+    );
 }

@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Title: Your first front-end framework: React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Repository: `intro-react`
+- Mode: `solo`
+- Type of Challenge: `learning`
+- Duration: `week-ish`
+- Author: `Manuele Sarfatti`
 
-## Available Scripts
+## Learning Objectives
 
-In the project directory, you can run:
+We've talked about a PHP framework like Laravel, let's look into a Javascript one!
+At the end of this 5-day challenge you will:
 
-### `npm start`
+- be able to create a new React application
+- be able to "think in React"
+- be able to use basic hooks for managing state and reactivity
+- be able to organize your app in components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Your mission
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This time the task is simple: you will build a small Todo application that lives in your browser, and saves todos even after browsers restart.
 
-### `npm test`
+![](images/todos.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ready? Start [here](1.Getting-Started/README.md)!
 
-### `npm run build`
+## Useful resources
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React introduces a few uncommon concepts that can be difficult to understand at first. Here is a list of useful resources you can refer to - before, during, and after this exercise.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Official Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It's well written and made available in many languages.
 
-### `npm run eject`
+- Main concepts, starting with the famous "Hello world" example: https://reactjs.org/docs/hello-world.html
+- "Thinking in React": https://reactjs.org/docs/thinking-in-react.html
+- If you prefer to learn by doing, you can follow the introductory tutorial: https://reactjs.org/tutorial/tutorial.html
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### YouTube
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+There is a TON of React material on YouTube. Choose your own flavor, but make sure that you watch videos that were released in the last year or so.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+One suggestion, very relevant to this exercise: https://www.youtube.com/watch?v=hQAHSlTtcmY
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Side note: a couple of years ago React went from using mainly "class" based components to mainly "functional" components. Any tutorial that focuses on functional components, and special functions called "hooks" is up to date. Don't waste time on class components, they are the old way._
 
-## Learn More
+#### Online Course
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Again, there are a TON of courses out there. The same rule applies: make sure they are recent, and they use functional components and hooks.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A good, free, course: https://egghead.io/courses/the-beginner-s-guide-to-react
 
-### Code Splitting
+#### Blogs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sometimes you will find a good explanation for a specific feature or problem in blogs. These are two blogs that always deliver high-quality content:
 
-### Analyzing the Bundle Size
+- https://kentcdodds.com/blog/
+- https://www.robinwieruch.de/blog
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deliverables
 
-### Making a Progressive Web App
+1. Publish the source code on your GitHub repository
+2. Deploy the project on Netlify  
+   _Tip: to deploy a React app you first run the command `npm run build`, and once the command finishes you will have your app ready in the `build` folder: just drag and drop this folder in Netlify and you are done. Easy!_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://cocky-hamilton-11745e.netlify.app/
